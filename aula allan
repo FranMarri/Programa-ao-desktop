@@ -1,0 +1,19 @@
+
+
+function manipulaArray() {
+    let animais = ['cacohrro', 'gato', 'abelha', 'rato', 'leão',  'galinha'];
+
+    const ordemAlfabetica = animais.sort();
+    const primeiro = animais[0];
+    const ultimo = animais[animais.length - 1];
+    const tamanhoDaLista = animais.length;
+
+    return {
+        ordemAlfabetica,
+        primeiro,
+        ultimo,
+        tamanhoDaLista
+    };
+}
+
+console.log(manipulaArray());
